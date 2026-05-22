@@ -30,13 +30,13 @@
       noto-fonts
       noto-fonts-cjk-sans     # 본고딕 (한글 필수)
       noto-fonts-cjk-serif    # 본명조
-      nanum-fonts             # 나눔 폰트
+      #nanum-fonts             # 나눔 폰트
       jetbrains-mono          # 개발용 고정폭 폰트
     ];
     
     fontconfig.defaultFonts = {
-      sansSerif = [ "Noto Sans CJK KR" "NanumGothic" ];
-      serif = [ "Noto Serif CJK KR" "NanumMyeongjo" ];
+      sansSerif = [ "Noto Sans CJK KR" ];
+      serif = [ "Noto Serif CJK KR" ];
       monospace = [ "JetBrains Mono" ];
     };
   };
