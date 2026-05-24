@@ -10,5 +10,5 @@
   boot.loader.grub.device = "/dev/nvme0n1";
   networking.hostName = "ultivetus-uconsole";
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.stateVersion = "23.11";
+  system.stateVersion = "25.11";
 }
