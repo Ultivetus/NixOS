@@ -3,7 +3,7 @@
   imports = [
     ./hardware-configuration.nix
   ];
-  boot.loader.grub.enable = true;
+  boot.loader.grub.enable = false;
   boot.initrd.availableKernelModules = [ "nvme" "pcie-brcmstb" ];
   boot.kernelParams = [ "pciex1" ];
   boot.loader.grub.device = "/dev/nvme0n1";
