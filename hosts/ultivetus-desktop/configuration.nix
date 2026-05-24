@@ -7,5 +7,5 @@
   boot.loader.efi.canTouchEfiVariables = true;
   networking.hostName = "ultivetus-desktop";
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-  system.stateVersion = "23.11";
+  system.stateVersion = "25.11";
 }
